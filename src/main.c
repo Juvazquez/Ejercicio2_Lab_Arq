@@ -23,7 +23,7 @@ void Iniciacion_GPIO_LEDS(void){
 
         HAL_GPIO_Init(GPIOD,&GPIO_InitStruct);
 }
-void Iniciacion_GPIO_SW(void){
+void Iniciacion_GPIO_Pulsador(void){
     GPIO_InitTypeDef GPIO_InitStruct;
         __HAL_RCC_GPIOA_CLK_ENABLE();
         GPIO_InitStruct.Pin = GPIO_PIN_0;
