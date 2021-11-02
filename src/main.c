@@ -37,7 +37,7 @@ int main(void)
 	SysTick_Handler ();
 	HAL_Init(); //Inicializo sistema
 	Iniciacion_GPIO_LEDS ();//Llamo funcion para configurar leds
-	Iniciacion_GPIO_Pulsador ();
+	Iniciacion_GPIO_Pulsador ();//Llamo funcion para configurar pulsador
 
   while (1)
     {
